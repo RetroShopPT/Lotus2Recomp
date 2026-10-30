@@ -1,8 +1,16 @@
-# Lotus2Recomp — early research
+# Ultimate Lotus 2
 
-Research toward a native Apple Silicon/macOS port of **Lotus Turbo Challenge II** (Amiga, 1991), by translating the original 68000 program and implementing the hardware services it uses.
+An Apple Silicon/macOS application project for **Lotus Turbo Challenge II**, starting with the Amiga version. The planned app provides a common menu for emulated play and a native recompilation when available. The native path aims to translate the original 68000 program and implement the hardware services it uses.
 
 **This is not a playable port, a finished recompiler, or a release.** No native Lotus 2 application has been built yet. Current contents are a read-only disk inspection utility and initial technical findings. No promise of feature or platform completeness is made.
+
+## Planned application
+
+- **Amiga first.** Other platform versions are deferred.
+- **Emulation and native modes** in one app. Neither is currently a finished playable feature here; native mode must stay unavailable until functional and validated.
+- **Local import of user-owned ADFs/ROMs.** No game images are bundled with the public app or repository. Import means reading a file on the user's computer, not uploading it to a server. Remember the selected data locally so repeat selection is unnecessary.
+- **Optional MP3 or MOD menu music**, supplied by the user through local import. Pause menu music when a game starts and resume it when returning to the menu.
+- Preserve original game behavior first; support for trainer variants depends on compatibility testing.
 
 ## Current progress
 
