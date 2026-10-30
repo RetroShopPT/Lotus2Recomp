@@ -1,0 +1,25 @@
+# User game data and local reverse-engineering material
+*.adf
+*.ADF
+*.adz
+*.ADZ
+*.dms
+*.ipf
+*.chd
+*.hdf
+*.lha
+*.zip
+original/
+private/
+reference/
+extracted/
+dumps/
+traces/
+inventory.json
+*.bin
+*.rom
+*.o
+*.pyc
+__pycache__/
+.DS_Store
+build/
